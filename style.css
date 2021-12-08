@@ -81,10 +81,14 @@ html, body {
   display: none;
 }
 .player_icon1{
- margin-top: 33%; 
+  width: 400px;
+  margin-top: 33%; 
+  margin-right:20%;
 }
 
 .player_icon2{
   transform: scale(-1,1);
-  margin-top: 33%; 
+  margin-top: 33%;
+  width: 400px; 
+  margin-left:15%;
 }
