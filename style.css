@@ -1,0 +1,90 @@
+html, body {
+  height:100%;
+  background: url(https://images.wallpaperscraft.ru/image/single/mashina_noch_sneg_143477_1920x1080.jpg);
+  background-size: cover;
+  margin: 0;
+  overflow: hidden;
+}
+.container{
+  text-align: center;
+  margin: 0 auto; 
+  width:88%;
+  height:100%;
+  margin-top: 20px;
+}
+.rolls{
+  margin-top:30%;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.player_value{
+  font-size: 50px;
+  text-align: center;
+  width: 10%;
+  color: white;
+  font-weight: bold;
+}
+.fight_button{
+  height:170px;
+  font-size:40px;
+  width:60%;
+  color: white;
+  border-radius: 15px;
+  background: black;
+  transition: 0.5s;
+} 
+.fight_button:hover{
+ background: #E12A2A; 
+}
+
+.player {
+  text-align:center;
+  float: left;
+  width:33%;
+}
+.name {
+  font-size: 60px;
+  color:white;
+  font-weight: bold;
+}
+.score{
+  background: #0B032A;
+  border-radius: 15px;
+  font-size: 100px;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  color:white;
+  font-weight: bold;
+}
+.fightbutton {
+  text-align:center;
+  float: left;
+  width: 33%;
+}
+.hit{
+  width: 100%;
+  height: 100%;
+  top:0;
+  position: absolute;
+  display: none;
+}
+
+.last_hit{
+  width: 100%;
+  height: 100%;
+  left:0;
+  top:0;
+  position: absolute;
+  display: none;
+}
+.player_icon1{
+ margin-top: 33%; 
+}
+
+.player_icon2{
+  transform: scale(-1,1);
+  margin-top: 33%; 
+}
